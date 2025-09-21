@@ -1,0 +1,56 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+  font: italic small-caps bold 24px/32px 'Montserrat', sans-serif;
+}
+
+.navbar .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.logo {
+  font-weight: 700;
+  color: #111;
+  text-decoration: none;
+}
+
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav-links a:hover {
+  color: #cdcbcb;
+}
+
+.nav-links a.active {
+  border-bottom: 2px solid white;
+}
+
+
+.btn-logout {
+  padding: 6px 12px;
+  border: none;
+  background-color: #e53e3e;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
